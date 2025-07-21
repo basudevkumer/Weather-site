@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practice</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section id="weatherApp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="form">
+              <div class="searchBox">
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control nameInput"
+                    id="exampleFormControlInput1"
+                    placeholder="Here Text a city name..."
+                  />
+                  <button type="button" class="btn btn-success searchButton">
+                    Search
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h1 class="weatherHeading">Weather in Dhaka</h1>
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="main">
+              <div class="mainChild">
+                <div class="mainHeading">Temperature</div>
+                <div class="mainTemperatureValue mainChildSame"></div>
+              </div>
+              <div class="mainChild">
+                <div class="mainHeading">Feels Like</div>
+                <div class="mainFeelsLikeValue mainChildSame"></div>
+              </div>
+              <div class="mainChild">
+                <div class="mainHeading">Humidity</div>
+                <div class="mainHumidityValue mainChildSame"></div>
+              </div>
+              <div class="mainChild">
+                <div class="mainHeading">Pressure</div>
+                <div class="mainPressureValue mainChildSame"></div>
+              </div>
+              <div class="mainChild">
+                <div class="mainHeading">Sea Level</div>
+                <div class="mainSeaLevelValue mainChildSame"></div>
+              </div>
+              <div class="mainChild">
+                <div class="mainHeading">Ground Level</div>
+                <div class="mainGroundLevelValue mainChildSame"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="windSun">
+              <div class="windSunElements">
+                <div class="windSunHeading">Wind Speed</div>
+                <div class="windSunWindSpeedValue"></div>
+              </div>
+              <div class="windSunElements">
+                <div class="windSunHeading">Wind Direction</div>
+                <div class="windSunWindDirectionValue"></div>
+              </div>
+              <div class="windSunElements">
+                <div class="windSunHeading">Gust</div>
+                <div class="windSunGustValue"></div>
+              </div>
+              <div class="windSunElements">
+                <div class="windSunHeading">Sunrise</div>
+                <div class="windSunSunriseValue"></div>
+              </div>
+              <div class="windSunElements">
+                <div class="windSunHeading">Sunset</div>
+                <div class="windSunSunsetValue"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="weatherMain">
+              <div class="weatherChild">
+                <div class="WeatherHeading">Weather</div>
+                <div class="WeatherValue WeatherValues"></div>
+              </div>
+              <div class="weatherChild">
+                <div class="WeatherHeading">Description</div>
+                <div class="WeatherValue WeatherDescriptionValue"></div>
+              </div>
+              <div class="weatherChild">
+                <div class="WeatherHeading">Cloudiness</div>
+                <div class="WeatherValue WeatherCloudinessValue"></div>
+              </div>
+              <div class="weatherChild">
+                <div class="WeatherHeading">Visibility</div>
+                <div class="WeatherValue WeatherVisibilityValue"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="coordnates">
+              <div class="coordnatesTextOne ">Lat:</div>
+              <div class="coordnatesTextTwo ">Lon: </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script/bootstrap.bundle.min.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>
